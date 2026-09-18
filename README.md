@@ -1,0 +1,2 @@
+# 260917-SEM-COP-CHAT-ECD-BA-LD-Priv
+Laboratorios del curso 260917-SEM-COP-CHAT-ECD-BA-LD-Priv
