@@ -13,7 +13,7 @@ Esta práctica transforma una necesidad recurrente de búsqueda en un prompt reu
 | Aplicaciones | Microsoft Copilot Chat |
 | Modalidad | Individual, guiada |
 | Insumos previos | Ninguno |
-| Resultado | Prompt reutilizable probado en dos consultas con parámetros diferentes |
+| Resultado | Prompt reutilizable probado en dos consultas y boletín ejecutivo de actualización regulatoria descargable como Word (.docx) |
 
 ## Distribución de tiempo
 
@@ -141,6 +141,47 @@ Verifica que puedas distinguir:
 
 **Criterio de finalización:** puedes reutilizar el prompt en una consulta futura modificando solo los parámetros necesarios.
 
+### Paso 6. Genera el boletín ejecutivo
+
+Utiliza los hallazgos verificables obtenidos durante la práctica para crear el entregable final.
+
+En la misma conversación, envía:
+
+> **PROMPT 2 - GENERAR BOLETÍN EJECUTIVO**
+
+```text
+Utiliza los resultados verificados obtenidos durante esta práctica para crear un boletín ejecutivo de actualización regulatoria para el sector financiero en El Salvador.
+
+Incluye únicamente publicaciones respaldadas por una fuente oficial original.
+
+Para cada hallazgo incluye:
+- título de la publicación, disposición o actualización;
+- fecha de publicación;
+- organismo emisor;
+- propósito o tema principal;
+- breve explicación de su posible relevancia para el sector financiero;
+- enlace directo a la fuente oficial original;
+- elemento pendiente de revisión adicional, cuando corresponda.
+
+Organiza el documento con esta estructura:
+
+1. Título del boletín.
+2. Periodo de consulta.
+3. Resumen ejecutivo.
+4. Principales actualizaciones identificadas.
+5. Tabla de hallazgos.
+6. Aspectos pendientes de validación.
+7. Fuentes oficiales consultadas.
+
+Reglas:
+- No inventes fechas, vigencia, obligaciones ni efectos jurídicos.
+- No realices asesoramiento legal.
+- Si un dato no puede confirmarse, indícalo como “pendiente de verificar”.
+- No incluyas una publicación si no puede vincularse con una fuente oficial original.
+
+Genera el resultado como un documento de Word descargable.
+```
+
 ## Validación y pruebas finales
 
 | # | Criterio | Estado |
@@ -153,6 +194,9 @@ Verifica que puedas distinguir:
 | 6 | La estructura del prompt se mantiene entre ambas ejecuciones. | ☐ |
 | 7 | Los datos no confirmados se marcan como pendientes. | ☐ |
 | 8 | La práctica no utiliza automatizaciones, agentes ni herramientas avanzadas. | ☐ |
+| 9 | El boletín contiene únicamente hallazgos respaldados por fuentes oficiales o marcados como pendientes. | ☐ |
+| 10 | Cada hallazgo conserva un enlace a la fuente original. | ☐ |
+| 11 | El boletín fue generado y descargado correctamente como documento de Word (.docx). | ☐ |
 
 ## Solución de problemas
 
@@ -165,9 +209,13 @@ Verifica que puedas distinguir:
 
 ## Limpieza y conservación
 
-- Conserva la plantilla del PROMPT 1 como resultado principal de la práctica.
+- Conserva la plantilla del PROMPT 1 como resultado reutilizable de la práctica.
 - Puedes conservar las dos conversaciones para demostrar la reutilización.
-- No es necesario crear archivos adicionales.
+- Conserva el boletín ejecutivo de actualización regulatoria en formato Word (.docx) como entregable final.
+
+## Entregable
+
+**Boletín ejecutivo de actualización regulatoria**, con los principales hallazgos y referencias a las fuentes originales, descargable como documento de **Word (.docx)**.
 
 ## Resumen de la práctica
 

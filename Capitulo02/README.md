@@ -13,7 +13,7 @@ Esta práctica muestra cómo pasar de una pregunta general como “¿cuál es me
 | Aplicaciones | Microsoft Copilot Chat |
 | Modalidad | Individual, guiada |
 | Insumos previos | Ninguno |
-| Resultado | Comparación sustentada y matriz visual de alternativas de pago digital |
+| Resultado | Comparación sustentada e infografía comparativa de alternativas de pago digital descargable como PNG |
 
 ## Distribución de tiempo
 
@@ -158,9 +158,34 @@ Requisitos:
 - al final incluye 3 conclusiones: una situación en la que cada alternativa podría resultar adecuada según los criterios observados.
 ```
 
-Si tu interfaz ofrece generación de imágenes, puedes pedir opcionalmente una infografía basada en la matriz. La matriz textual es suficiente para completar la práctica.
+Utiliza la matriz validada como base para crear la infografía final.
 
-**Criterio de finalización:** existe una matriz visual que permite contrastar las alternativas seleccionadas sin presentar un ranking general.
+En la misma conversación, envía:
+
+> **PROMPT 4 - CREAR INFOGRAFÍA COMPARATIVA**
+
+```text
+Utiliza exclusivamente la comparación y la matriz que acabamos de validar para crear una infografía comparativa de las alternativas de pago digital analizadas.
+
+La infografía debe mostrar:
+- las alternativas comparadas;
+- facilidad de uso;
+- disponibilidad;
+- requisitos;
+- conveniencia;
+- escenarios de utilización;
+- ventajas sustentadas;
+- limitaciones sustentadas;
+- elementos pendientes de validación.
+
+Mantén la comparación neutral.
+
+No asignes una puntuación total.
+No declares un ganador general.
+No presentes como hecho ninguna ventaja que no esté respaldada por la información analizada.
+
+El resultado debe permitir comprender visualmente en qué condiciones podría resultar adecuada cada alternativa.
+```
 
 ## Validación y pruebas finales
 
@@ -171,8 +196,9 @@ Si tu interfaz ofrece generación de imágenes, puedes pedir opcionalmente una i
 | 3 | Se utilizan los 5 criterios obligatorios. | ☐ |
 | 4 | La comparación identifica ventajas y limitaciones sustentadas. | ☐ |
 | 5 | Los vacíos de información están marcados como pendientes. | ☐ |
-| 6 | Existe una matriz visual en una sola pantalla. | ☐ |
+| 6 | Existe una matriz visual en una sola pantalla que sirve como base para el entregable. | ☐ |
 | 7 | No se declara una “mejor opción” universal. | ☐ |
+| 8 | La infografía final fue generada y descargada correctamente como archivo PNG. | ☐ |
 
 ## Solución de problemas
 
@@ -181,12 +207,16 @@ Si tu interfaz ofrece generación de imágenes, puedes pedir opcionalmente una i
 | Copilot propone opciones sin fuentes oficiales. | Pide sustituirlas por alternativas con documentación pública verificable. |
 | Las alternativas no son comparables. | Limita la búsqueda al mismo tipo de experiencia o transacción. |
 | Copilot asigna puntuaciones sin explicar criterios. | Elimina la puntuación y pide descripciones breves basadas en evidencia. |
-| No está disponible la generación de imágenes. | Utiliza la matriz visual en Markdown; cumple el objetivo de comparación visual. |
+| No aparece la opción para generar o descargar la infografía. | Verifica las opciones disponibles en Crear dentro de Microsoft Copilot y utiliza la matriz validada como contenido de entrada para generar el recurso visual. |
 
 ## Limpieza y conservación
 
 - Conserva la conversación si deseas reutilizar la comparación durante la sesión.
-- No es necesario descargar archivos ni capturas de pantalla.
+- Conserva el archivo PNG generado como entregable de la práctica.
+
+## Entregable
+
+**Infografía comparativa de alternativas de pago digital**, descargable como archivo **PNG**.
 
 ## Resumen de la práctica
 

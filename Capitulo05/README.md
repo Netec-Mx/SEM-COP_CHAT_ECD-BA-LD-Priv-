@@ -13,7 +13,7 @@ Esta práctica utiliza tendencias públicas para explorar futuros posibles de lo
 | Aplicaciones | Microsoft Copilot Chat |
 | Modalidad | Individual, guiada |
 | Insumos previos | Ninguno |
-| Resultado | Tres escenarios contrastantes y una matriz visual de variables, condiciones, señales e implicaciones |
+| Resultado | Matriz comparativa de escenarios con gráficos en Excel y presentación ejecutiva de los escenarios en PowerPoint |
 
 ## Distribución de tiempo
 
@@ -156,9 +156,109 @@ Requisitos:
 Después de la matriz, escribe 2 nuevas preguntas de investigación que surgieron al comparar los escenarios.
 ```
 
-Si la interfaz permite crear imágenes, puedes solicitar opcionalmente una infografía basada en la matriz. La matriz textual es suficiente para completar la práctica.
+Revisa que la matriz permita contrastar claramente los tres escenarios.
 
 **Criterio de finalización:** existe una representación visual que permite contrastar variables, señales e implicaciones de los 3 escenarios.
+
+### Paso 6. Genera la matriz comparativa en Excel
+
+Utiliza exclusivamente los escenarios y la matriz que acabas de validar.
+
+En la misma conversación, envía:
+
+> **PROMPT 4 - GENERAR MATRIZ DE ESCENARIOS EN EXCEL**
+
+```text
+Utiliza los tres escenarios que acabamos de validar para crear una matriz comparativa destinada a un libro de Excel.
+
+Para cada escenario incluye:
+- variables analizadas;
+- condición de cada variable;
+- características principales;
+- factores que podrían favorecerlo;
+- señales que convendría observar;
+- posibles implicaciones para usuarios;
+- posibles implicaciones para instituciones financieras;
+- posibles implicaciones para pequeños negocios;
+- principal incertidumbre o supuesto pendiente.
+
+Agrega gráficos que permitan visualizar las principales diferencias entre los escenarios cuando la información disponible permita representarlas correctamente.
+
+Incluye de forma visible la advertencia:
+“Estos escenarios son exploratorios y no constituyen predicciones”.
+
+No asignes probabilidades.
+No clasifiques los escenarios como mejor o peor.
+No conviertas hipótesis en hechos.
+
+Genera el resultado como un libro de Excel descargable.
+```
+Revisa el resultado antes de descargarlo.
+
+Comprueba que:
+
+- aparezcan los tres escenarios trabajados;
+- las variables y condiciones correspondan con el análisis realizado;
+- los gráficos representen correctamente la información de la matriz;
+- las posibles implicaciones no se presenten como resultados asegurados;
+- aparezca claramente la advertencia de que los escenarios no son predicciones.
+
+Descarga el resultado como libro de **Excel (.xlsx)**.
+
+**Criterio de finalización:** existe un libro de Excel descargado que contiene la matriz comparativa de los tres escenarios y gráficos que facilitan su análisis, indicando claramente que se trata de escenarios exploratorios.
+
+### Paso 7. Genera la presentación ejecutiva
+
+Utiliza ahora los mismos escenarios validados y la información organizada en la matriz para crear una presentación ejecutiva.
+
+No es necesario realizar nuevas búsquedas. Este paso transforma los resultados de la práctica en un formato orientado a comunicar los escenarios de manera visual.
+
+> **PROMPT 5 - GENERAR PRESENTACIÓN EJECUTIVA**
+
+```text
+Utiliza exclusivamente los escenarios validados durante esta práctica para crear una presentación ejecutiva sobre la posible evolución de los servicios financieros en El Salvador.
+
+La presentación debe incluir:
+
+1. Propósito del análisis.
+2. Tendencias públicas consideradas.
+3. Variables utilizadas para construir los escenarios.
+4. Descripción de los tres escenarios explorados.
+5. Condiciones principales asociadas con cada escenario.
+6. Señales que convendría observar.
+7. Posibles implicaciones para los actores analizados.
+8. Comparación visual de los tres escenarios.
+9. Principales incertidumbres o supuestos.
+10. Nuevas preguntas de investigación identificadas durante el ejercicio.
+
+Incluye claramente la siguiente advertencia:
+
+“Los escenarios presentados son exploratorios y no constituyen predicciones sobre el futuro”.
+
+Reglas:
+- No asignes probabilidades.
+- No identifiques un escenario como ganador.
+- No determines cuál escenario ocurrirá.
+- No presentes hipótesis como hechos.
+- No agregues información que no haya sido analizada durante la práctica.
+- Mantén una presentación ejecutiva, visual y fácil de interpretar.
+
+Genera el resultado como una presentación de PowerPoint descargable.
+```
+
+Revisa la presentación antes de descargarla.
+
+Comprueba que:
+
+- represente los mismos tres escenarios utilizados en la matriz de Excel;
+- mantenga las variables, señales e implicaciones previamente validadas;
+- no introduzca escenarios, cifras o conclusiones nuevas;
+- incluya una comparación visual de los escenarios;
+- indique expresamente que los escenarios son exploratorios y no predicciones.
+
+Descarga el resultado como archivo de **PowerPoint (.pptx)**.
+
+**Criterio de finalización:** existen un libro de Excel y una presentación de PowerPoint descargados, ambos construidos a partir de los mismos tres escenarios validados y ambos manteniendo explícitamente el carácter exploratorio del ejercicio.
 
 ## Validación y pruebas finales
 
@@ -172,6 +272,9 @@ Si la interfaz permite crear imágenes, puedes solicitar opcionalmente una infog
 | 6 | Existe una matriz visual comparativa. | ☐ |
 | 7 | La matriz incluye la advertencia de que no constituye una predicción. | ☐ |
 | 8 | Se generan 2 nuevas preguntas de investigación. | ☐ |
+| 9 | La matriz comparativa con gráficos fue generada y descargada como archivo Excel (.xlsx). | ☐ |
+| 10 | La presentación ejecutiva fue generada y descargada como archivo PowerPoint (.pptx). | ☐ |
+| 11 | Ambos entregables indican que los escenarios son exploratorios y no constituyen predicciones. | ☐ |
 
 ## Solución de problemas
 
@@ -180,12 +283,19 @@ Si la interfaz permite crear imágenes, puedes solicitar opcionalmente una infog
 | Copilot presenta un escenario como pronóstico. | Pide reformularlo en lenguaje condicional y eliminar probabilidades. |
 | Los escenarios son casi iguales. | Cambia de forma explícita las condiciones de una o ambas variables. |
 | Aparecen cifras futuras sin fuente. | Elimínalas o márcalas como hipótesis; no las uses como evidencia. |
-| No está disponible la generación de imágenes. | Utiliza la matriz visual en Markdown. |
+| No aparece la opción para generar los archivos finales. | Verifica las opciones de creación y descarga disponibles en Microsoft Copilot y utiliza la matriz ya validada como contenido de entrada para crear los entregables. |
 
 ## Limpieza y conservación
 
 - Conserva la conversación si deseas revisar los escenarios durante la sesión.
-- No es necesario descargar imágenes ni crear archivos.
+- Conserva el libro de Excel (.xlsx) y la presentación de PowerPoint (.pptx) generados como entregables.
+
+## Entregable
+
+Se deben obtener los siguientes entregables:
+
+1. **Matriz comparativa de escenarios con gráficos para visualizar sus características, variables y posibles implicaciones**, descargable como libro de **Excel (.xlsx)**.
+2. **Presentación ejecutiva con la representación visual de los escenarios explorados**, descargable como presentación de **PowerPoint (.pptx)**.
 
 ## Resumen de la práctica
 

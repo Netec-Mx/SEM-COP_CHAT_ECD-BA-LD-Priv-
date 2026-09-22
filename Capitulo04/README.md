@@ -13,7 +13,7 @@ Esta práctica utiliza información pública y actualizada para contrastar la Cu
 | Aplicaciones | Microsoft Copilot Chat |
 | Modalidad | Individual, guiada |
 | Insumos previos | Ninguno |
-| Resultado | Comparación sustentada y respuesta equilibrada al cliente |
+| Resultado | Ficha comparativa descargable como PDF y propuesta de respuesta al cliente en formato de correo electrónico para Outlook |
 
 ## Distribución de tiempo
 
@@ -160,6 +160,76 @@ Asegúrate de que cada diferencia mencionada en la respuesta pueda rastrearse a 
 
 **Criterio de finalización:** existe una respuesta breve que orienta la conversación con evidencia y reconoce sus límites.
 
+### Paso 7. Genera los entregables
+
+Primero genera una ficha comparativa utilizando exclusivamente la información validada durante la práctica.
+
+En la misma conversación, envía:
+
+> **PROMPT 4 - GENERAR FICHA COMPARATIVA**
+
+```text
+Utiliza exclusivamente la información validada durante esta práctica para crear una ficha comparativa de los dos productos analizados.
+
+Incluye:
+- nombre de cada producto;
+- institución financiera;
+- características principales;
+- beneficios publicados;
+- requisitos;
+- costos, comisiones o montos mínimos únicamente cuando estén confirmados;
+- canales de uso;
+- posibles limitaciones;
+- aspectos que requieren información adicional;
+- fuentes oficiales utilizadas.
+
+Distingue claramente entre:
+- información respaldada por una fuente;
+- información pendiente de confirmar.
+
+No declares que uno de los productos es mejor en términos generales.
+
+Genera una ficha ejecutiva, clara y fácil de consultar, preparada para descargarse como PDF.
+```
+Revisa que los datos incluidos en la ficha correspondan con las fuentes oficiales verificadas durante la práctica.
+
+Descarga la ficha comparativa como archivo **PDF**.
+
+A continuación, utiliza la respuesta construida previamente en la práctica para preparar el correo electrónico que podría enviarse al cliente.
+
+> **PROMPT 5 - PREPARAR CORREO PARA OUTLOOK**
+
+```text
+Convierte la respuesta al cliente que acabamos de validar en un correo electrónico profesional listo para utilizarse en Outlook.
+
+Incluye:
+- asunto;
+- saludo;
+- reconocimiento de la inquietud del cliente;
+- explicación breve de las diferencias respaldadas por evidencia;
+- aclaración de que la conveniencia depende de los criterios que valore el cliente;
+- las dos preguntas definidas durante la práctica para comprender qué significa “más conveniente” para el cliente;
+- cierre profesional.
+
+Mantén un tono profesional, empático, neutral y equilibrado.
+
+No agregues información nueva.
+No desacredites a la competencia.
+No presentes como hechos ventajas que no estén respaldadas por las fuentes revisadas.
+No realices recomendaciones financieras personalizadas.
+```
+
+Revisa que el correo:
+
+- utilice únicamente información previamente validada;
+- no declare un producto como superior de manera general;
+- mantenga un tono profesional y neutral;
+- incluya las preguntas necesarias para comprender mejor las necesidades del cliente.
+
+Deja el contenido preparado para utilizarse en **Outlook**.
+
+**Criterio de finalización:** existe una ficha comparativa descargada como PDF y una propuesta de correo electrónico lista para utilizarse en Outlook.
+
 ## Validación y pruebas finales
 
 | # | Criterio | Estado |
@@ -172,6 +242,9 @@ Asegúrate de que cada diferencia mencionada en la respuesta pueda rastrearse a 
 | 6 | La respuesta final no supera 140 palabras. | ☐ |
 | 7 | La respuesta incluye exactamente 2 preguntas para aclarar la necesidad del cliente. | ☐ |
 | 8 | No se presenta una ventaja no demostrada como hecho. | ☐ |
+| 9 | La ficha comparativa contiene únicamente información respaldada o claramente marcada como pendiente. | ☐ |
+| 10 | La ficha comparativa fue descargada correctamente como archivo PDF. | ☐ |
+| 11 | Existe una propuesta de correo electrónico para Outlook lista para su envío. | ☐ |
 
 ## Solución de problemas
 
@@ -185,8 +258,16 @@ Asegúrate de que cada diferencia mencionada en la respuesta pueda rastrearse a 
 ## Limpieza y conservación
 
 - Conserva la conversación si se utilizará durante la demostración.
-- No es necesario crear archivos adicionales.
+- Conserva la ficha comparativa en PDF como entregable de la práctica.
+- Conserva la propuesta de correo electrónico para utilizarla en Outlook.
 - No introduzcas información personal o confidencial de clientes.
+
+## Entregable
+
+Se deben obtener los siguientes entregables:
+
+1. **Ficha comparativa de los productos analizados**, descargable como archivo **PDF**.
+2. **Propuesta de respuesta al cliente en formato de correo electrónico para Outlook**, lista para su envío.
 
 ## Resumen de la práctica
 

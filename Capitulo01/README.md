@@ -13,7 +13,7 @@ Esta práctica utiliza información pública disponible en Internet para ampliar
 | Aplicaciones | Microsoft Copilot Chat |
 | Modalidad | Individual, guiada |
 | Insumos previos | Ninguno |
-| Resultado | Mapa estructurado de situaciones, barreras, evidencia y preguntas de investigación |
+| Resultado | Mapa estructurado de situaciones, barreras, evidencia y preguntas de investigación, presentado como historia visual descargable en PDF |
 
 ## Distribución de tiempo
 
@@ -146,11 +146,37 @@ Observa si la segunda respuesta:
 **Aplicación:** Microsoft Copilot Chat  
 **Objetivo:** comprobar que el resultado cumple el propósito de ampliar la perspectiva.
 
-### Paso 5. Haz una revisión rápida
+### Paso 5. Revisa el resultado y genera el entregable
 
-Conserva como resultado la tabla final generada en la conversación. No es necesario crear un archivo adicional.
+Comprueba que la tabla final permita distinguir claramente:
 
-**Criterio de finalización:** puedes señalar al menos 3 preguntas que deberían investigarse antes de diseñar una solución.
+- perfiles o circunstancias identificadas;
+- barreras relacionadas;
+- factores asociados;
+- información respaldada por fuentes;
+- hipótesis o aspectos pendientes;
+- preguntas que deberían investigarse antes de plantear una solución.
+
+A continuación, utiliza **Crear** en Microsoft Copilot para transformar los hallazgos de la práctica en una historia visual.
+
+Utiliza el siguiente prompt:
+
+> **PROMPT 3 - CREAR HISTORIA VISUAL**
+
+```text
+Utiliza los hallazgos obtenidos en esta conversación para crear una historia visual sobre los principales perfiles, circunstancias y barreras relacionadas con la inclusión financiera digital en El Salvador.
+
+Organiza el contenido de manera clara y visual e incluye:
+- perfiles o circunstancias identificadas;
+- principales barreras asociadas;
+- factores relacionados, como conectividad, alfabetización digital, ubicación geográfica y familiaridad con canales digitales;
+- información respaldada por fuentes;
+- aspectos que todavía requieren investigación.
+
+No conviertas hipótesis en hechos ni propongas una solución única.
+
+El objetivo es mostrar de forma visual qué situaciones pueden dificultar el acceso y uso de servicios financieros digitales y qué aspectos deberían investigarse con mayor profundidad.
+```
 
 ## Validación y pruebas finales
 
@@ -162,6 +188,7 @@ Conserva como resultado la tabla final generada en la conversación. No es neces
 | 4 | La tabla incluye fuentes y enlaces cuando existe evidencia pública. | ☐ |
 | 5 | Existen al menos 3 preguntas que requieren mayor investigación. | ☐ |
 | 6 | No se presenta una solución única como conclusión de la práctica. | ☐ |
+| 7 | La historia visual final fue generada y descargada correctamente como archivo PDF. | ☐ |
 
 ## Solución de problemas
 
@@ -175,8 +202,12 @@ Conserva como resultado la tabla final generada en la conversación. No es neces
 ## Limpieza y conservación
 
 - Conserva la conversación de Copilot mientras sea útil para la sesión.
-- No es necesario crear ni descargar archivos.
+- Conserva el archivo PDF generado como entregable de la práctica.
 - No copies datos personales o información confidencial a la conversación.
+
+## Entregable
+
+**Historia visual sobre perfiles y barreras para la inclusión financiera digital**, generada con ayuda de **Crear en Copilot** y descargada como archivo **PDF**.
 
 ## Resumen de la práctica
 

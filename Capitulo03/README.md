@@ -13,7 +13,7 @@ Esta práctica utiliza información pública para analizar una tendencia de los 
 | Aplicaciones | Microsoft Copilot Chat |
 | Modalidad | Individual, guiada |
 | Insumos previos | Ninguno |
-| Resultado | Matriz de perspectivas con coincidencias, tensiones y preguntas pendientes |
+| Resultado | Matriz de análisis de perspectivas con gráficos comparativos, descargable como libro de Excel (.xlsx) |
 
 ## Distribución de tiempo
 
@@ -149,6 +149,50 @@ No elijas una perspectiva como la correcta. El objetivo es hacer visibles difere
 
 **Criterio de finalización:** existen coincidencias, tensiones y preguntas pendientes sin presentar una perspectiva como única explicación válida.
 
+### Paso 6. Genera el entregable
+
+Utiliza la matriz de perspectivas y la síntesis comparativa que acabas de validar para generar el entregable final.
+
+En la misma conversación, envía:
+
+> **PROMPT 4 - GENERAR MATRIZ DE PERSPECTIVAS EN EXCEL**
+
+```text
+Utiliza exclusivamente los resultados validados durante esta práctica para preparar una matriz de análisis de perspectivas sobre la evolución de los servicios financieros digitales.
+
+La matriz debe incluir los cuatro actores analizados y organizar, para cada uno:
+- beneficios potenciales;
+- necesidades;
+- preocupaciones;
+- prioridades;
+- evidencia pública utilizada;
+- interpretaciones o hipótesis pendientes de validar.
+
+Incluye además:
+- las principales coincidencias entre actores;
+- las principales tensiones identificadas;
+- las preguntas pendientes de investigación.
+
+Agrega gráficos comparativos que permitan visualizar los principales hallazgos entre las perspectivas.
+
+Los gráficos deben facilitar la comparación y no deben convertir interpretaciones cualitativas en puntuaciones objetivas si los datos no permiten hacerlo.
+
+Genera el resultado como un libro de Excel descargable.
+```
+Revisa el resultado antes de descargarlo.
+
+Comprueba que:
+
+- estén representados los actores analizados durante la práctica;
+- se distingan beneficios, necesidades, preocupaciones y prioridades;
+- las interpretaciones o hipótesis estén claramente diferenciadas de la información respaldada;
+- los gráficos correspondan con la información contenida en la matriz;
+- no se hayan creado puntuaciones, cifras o conclusiones que no estén sustentadas.
+
+Descarga el resultado como libro de **Excel (.xlsx)**.
+
+**Criterio de finalización:** existe un libro de Excel descargado que contiene la matriz de análisis de perspectivas y gráficos comparativos de los principales hallazgos, sin convertir interpretaciones o hipótesis en hechos.
+
 ## Validación y pruebas finales
 
 | # | Criterio | Estado |
@@ -160,6 +204,8 @@ No elijas una perspectiva como la correcta. El objetivo es hacer visibles difere
 | 5 | Se diferencian hechos, interpretaciones e hipótesis. | ☐ |
 | 6 | Se identifican al menos 2 coincidencias y 2 tensiones. | ☐ |
 | 7 | Hay al menos 2 preguntas pendientes de investigación. | ☐ |
+| 8 | Se generó un libro de Excel con la matriz de perspectivas y gráficos comparativos. | ☐ |
+| 9 | El archivo final fue descargado correctamente en formato .xlsx. | ☐ |
 
 ## Solución de problemas
 
@@ -172,7 +218,11 @@ No elijas una perspectiva como la correcta. El objetivo es hacer visibles difere
 ## Limpieza y conservación
 
 - Conserva la conversación como evidencia de la progresión del análisis si resulta útil.
-- No es necesario crear archivos adicionales.
+- Conserva el libro de Excel (.xlsx) generado como entregable de la práctica.
+
+## Entregable
+
+**Matriz de análisis de perspectivas sobre la evolución de los servicios financieros digitales**, con gráficos comparativos para visualizar los principales hallazgos, descargable como libro de **Excel (.xlsx)**.
 
 ## Resumen de la práctica
 
