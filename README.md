@@ -1,4 +1,11 @@
+<img src="images/neteclogo (2).png" alt="logo" width="300"/>
+
+
 # Explora, cuestiona y decide con Microsoft Copilot
+
+## Plataforma de laboratorios
+
+Te damos la bienvenida a la **plataforma de laboratorios** del curso **Explora, cuestiona y decide con Microsoft Copilot**. Aquí podrás explorar diferentes tecnologías a través de prácticas guiadas. ¡Desarrolla tus habilidades y lleva tus conocimientos al siguiente nivel!
 
 Este seminario demostrativo permite avanzar del uso básico de Microsoft Copilot hacia formas más estructuradas de investigar, analizar y comprender situaciones del entorno laboral.
 
@@ -6,9 +13,6 @@ A través de seis prácticas guiadas con Microsoft Copilot Chat e información p
 
 Las actividades están diseñadas para realizarse sin archivos adicionales preparados previamente.
 
-## Estructura
-
-- `CapituloXX/README.md`: guía práctica correspondiente a cada capítulo.
 
 ## Lista de prácticas
 
@@ -60,8 +64,13 @@ Las actividades están diseñadas para realizarse sin archivos adicionales prepa
 
   - **Duración estimada:** 9 min
 
-## Flujo de colaboración
+---
 
-- Trabajar en `changes_course`.
-- Crear Pull Request hacia `main`.
-- Realizar el merge mediante `Squash and merge`.
+## 📬 **Contacto y más información**
+
+Si tienes alguna pregunta o necesitas más detalles, no dudes en [contactarnos](mailto:soporte@netec.com). También puedes encontrar más recursos en nuestra [página](https://netec.com).
+
+---
+
+¡Gracias por visitar nuestra plataforma! No olvides revisar todos los laboratorios y comenzar tu viaje de aprendizaje hoy mismo.
+
